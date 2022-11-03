@@ -5549,7 +5549,12 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 .modal-dialog-scrollable .modal-body {
-  overflow-y: auto;
+  /* overflow-y: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .modal-dialog-centered {
@@ -5610,7 +5615,6 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
 }
 
 .modal-footer {
@@ -11543,8 +11547,8 @@ header.masthead .masthead-heading {
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
@@ -11940,11 +11944,30 @@ section#social form#contactForm :-ms-input-placeholder {
 .next {
   right: -25px;
 }
+iframe{
+  width: 853px;
+  height: 480px;
+}
+.mybtn{
+  max-width: 150px;
+}
 @media only screen and (max-width: 576px){
   .prev {
     left: 10px;
   }
   .next {
     right: 10px;
+  }
+  iframe{
+    width: 350px;
+    height: 190px;
+    margin-top: 87px;
+  }
+}
+@media only screen and (max-width: 376px){
+  iframe{
+    width: 300px;
+    height: 190px;
+    margin-top: 87px;
   }
 }
