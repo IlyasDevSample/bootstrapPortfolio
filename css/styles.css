@@ -11832,6 +11832,7 @@ section#social form#contactForm :-ms-input-placeholder {
   font-size: 24px;
   font-weight: 900;
   margin-bottom: 0;
+  text-shadow: 0 0 15px darkgray;
 }
 .nav-header-video{
   position: relative;
