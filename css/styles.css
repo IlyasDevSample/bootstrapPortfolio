@@ -116,6 +116,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 hr {
@@ -11332,7 +11333,9 @@ p {
 
 .page-section {
   padding: 6rem 0;
+  
 }
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
@@ -11445,6 +11448,7 @@ p {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: 2rem;
+  height: 100vh;
   text-align: center;
   color: #fff;
   /* background-image: url("../assets/img/header-bg.jpg"); */
@@ -11452,7 +11456,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  background:rgba(0,0,0,0.7);
+  background:rgba(0,0,0,0.5);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11896,4 +11900,43 @@ section#social form#contactForm :-ms-input-placeholder {
     transform: translate(-50%,40px);
     opacity: 0;
   }
+}
+
+
+#hit{
+  background: url("https://cdn1.umg3.net/937-cdn/assets/gfx/section4.jpg?v=1") no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  object-fit: cover;
+}
+.font-weight-900{
+  font-weight: 900;
+}
+
+.slider-container img{
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+}
+.sliders {
+  position: relative;
+}
+.control{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+.prev, .next {
+  position: absolute;
+}
+.prev {
+  left: -25px;
+}
+.next {
+  right: -25px;
 }

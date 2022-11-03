@@ -57,3 +57,25 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById('myVideo').addEventListener('loadedmetadata', function() {
     this.currentTime = 50;
 }, false);
+
+let slider = tns({
+    container: '.slider-container',
+    items: 3,
+    mouseDrag: true,
+    nav: false,
+    center: true,
+    slideBy: "page",
+    "gutter": 10,
+    controlsContainer: "#custom-control",
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        1024: {
+            items: 3
+        }},
+    
+})
