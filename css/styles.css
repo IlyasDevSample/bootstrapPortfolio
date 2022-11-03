@@ -11940,3 +11940,11 @@ section#social form#contactForm :-ms-input-placeholder {
 .next {
   right: -25px;
 }
+@media only screen and (max-width: 576px){
+  .prev {
+    left: 10px;
+  }
+  .next {
+    right: 10px;
+  }
+}
