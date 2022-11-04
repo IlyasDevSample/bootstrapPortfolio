@@ -79,3 +79,8 @@ let slider = tns({
         }},
     
 })
+
+let loader = document.getElementById('loader')
+window.addEventListener('load', ()=>{
+    loader.style.display = 'none'
+})

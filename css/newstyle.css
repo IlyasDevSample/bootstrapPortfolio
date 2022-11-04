@@ -221,3 +221,14 @@
   .btn-customcss{
     background-color: rgb(250, 214, 165);
   }
+
+  #loader{
+    position: fixed;
+    background: black url("../assets/24.gif") no-repeat center;
+    background-size: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+  }
