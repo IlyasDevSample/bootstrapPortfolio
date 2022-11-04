@@ -11921,7 +11921,7 @@ section#social form#contactForm :-ms-input-placeholder {
 
 .slider-container img{
   aspect-ratio: 1 / 1;
-  cursor: pointer;
+  cursor: grab;
 }
 .sliders {
   position: relative;
